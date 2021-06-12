@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "546795301913",
+    "project_id": "momodemoapp",
+    "storage_bucket": "momodemoapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546795301913:android:f96eb8bc3fd2a6d5764e88",
+        "android_client_info": {
+          "package_name": "com.example.momopay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546795301913-gg0koipkc44kggcvcj0bu8smhaj2v8tf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvDIAKHJEdw_kKoQfgF7tpiOS3WR9xnLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546795301913-gg0koipkc44kggcvcj0bu8smhaj2v8tf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
