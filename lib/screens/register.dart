@@ -80,7 +80,9 @@ class RegisterScreen extends StatelessWidget {
                           MaterialPageRoute(
                               builder: (context) => LoginScreen()));
                     } else {
-                      SnackBar(content: Text("Unable to sign up"));
+                      final snackBar =
+                          SnackBar(content: Text("Unable to sign up"));
+                      ScaffoldMessenger.of(context).showSnackBar(snackBar);
                     }
                   })),
           Container(

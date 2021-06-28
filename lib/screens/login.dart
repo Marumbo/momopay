@@ -82,9 +82,11 @@ class LoginScreen extends StatelessWidget {
                               MaterialPageRoute(
                                   builder: (context) => HomeScreen()));
                         } else {
-                          SnackBar(
+                          final snackBar = SnackBar(
                               content:
                                   Text("Unable to sign in, sign up first"));
+
+                          ScaffoldMessenger.of(context).showSnackBar(snackBar);
                         }
                       })),
               Container(
@@ -119,8 +121,10 @@ class LoginScreen extends StatelessWidget {
                           MaterialPageRoute(
                               builder: (context) => HomeScreen()));
                     } else {
-                      SnackBar(
+                      final snackBar = SnackBar(
                           content: Text("Unable to sign in, sign up first"));
+
+                      ScaffoldMessenger.of(context).showSnackBar(snackBar);
                     }
                   },
                   child: Text("Sign in annonymously"))
